@@ -181,7 +181,6 @@ Project Link: [https://github.com/SolarSpec/GlobalFittingApp](https://github.com
 ## Acknowledgments
 
 * [Group Leader - Dr. Robert Godin](https://solarspec.ok.ubc.ca/people/)
-* [Group Alumni - James Kivai](https://solarspec.ok.ubc.ca/people/)
 * [The Entire SolarSpec Team](https://solarspec.ok.ubc.ca/people/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
