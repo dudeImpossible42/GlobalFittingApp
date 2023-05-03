@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="883783516" file="C:\Users\Haris\Desktop\GlobalFittingApp\GlobalFittingApp.prj" location="C:\Users\Haris\Desktop\GlobalFittingApp" name="GlobalFittingApp" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1836611039" file="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\Platform-Repo\GlobalFittingApp\GlobalFittingApp.prj" location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\Platform-Repo\GlobalFittingApp" name="GlobalFittingApp" target="target.mlapps" target-name="Package App">
     <param.appname>GlobalFittingApp</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Use MATLAB's Curve Fitting Toolbox and Global Optimization Toolbox to perform nonlinear multivariate regression on your experimental data.</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\Haris\AppData\Local\Temp\tpa6023a58_5b0a_4738_a88b_ff0941b63f26.png</param.screenshot>
+    <param.screenshot>C:\Users\mirac\AppData\Local\Temp\tped5a8ac8_95bd_491b_aeda_a0445a3a2052.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -54,49 +54,12 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\Haris\Desktop" name="GlobalFittingApp" optional="false">C:\Users\Haris\Desktop\GlobalFittingApp</file>
+      <file location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\Platform-Repo" name="GlobalFittingApp" optional="false">C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\Platform-Repo\GlobalFittingApp</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>H:\Program Files\MATLAB\R2022b</root>
-      <toolboxes>
-        <toolbox name="matlabcoder" />
-        <toolbox name="embeddedcoder" />
-        <toolbox name="gpucoder" />
-        <toolbox name="fixedpoint" />
-        <toolbox name="matlabhdlcoder" />
-        <toolbox name="neuralnetwork" />
-      </toolboxes>
-      <toolbox>
-        <matlabcoder>
-          <enabled>true</enabled>
-        </matlabcoder>
-      </toolbox>
-      <toolbox>
-        <embeddedcoder>
-          <enabled>true</enabled>
-        </embeddedcoder>
-      </toolbox>
-      <toolbox>
-        <gpucoder>
-          <enabled>true</enabled>
-        </gpucoder>
-      </toolbox>
-      <toolbox>
-        <fixedpoint>
-          <enabled>true</enabled>
-        </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <matlabhdlcoder>
-          <enabled>true</enabled>
-        </matlabhdlcoder>
-      </toolbox>
-      <toolbox>
-        <neuralnetwork>
-          <enabled>true</enabled>
-        </neuralnetwork>
-      </toolbox>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes />
     </matlab>
     <platform>
       <unix>false</unix>
