@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1836611039" file="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\Platform-Repo\GlobalFittingApp\GlobalFittingApp.prj" location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\Platform-Repo\GlobalFittingApp" name="GlobalFittingApp" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="70566870" file="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\GlobalFittingApp\GlobalFittingApp.prj" location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\GlobalFittingApp" name="GlobalFittingApp" target="target.mlapps" target-name="Package App">
     <param.appname>GlobalFittingApp</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email />
@@ -12,7 +12,7 @@
     </param.icons>
     <param.summary>Use MATLAB's Curve Fitting Toolbox and Global Optimization Toolbox to perform nonlinear multivariate regression on your experimental data.</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\mirac\AppData\Local\Temp\tped5a8ac8_95bd_491b_aeda_a0445a3a2052.png</param.screenshot>
+    <param.screenshot>C:\Users\mirac\AppData\Local\Temp\tp46c8b3ed_6e62_4985_95f6_f27ac9275312.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -54,7 +54,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\Platform-Repo" name="GlobalFittingApp" optional="false">C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\Platform-Repo\GlobalFittingApp</file>
+      <file location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders" name="GlobalFittingApp" optional="false">C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\GlobalFittingApp</file>
     </build-deliverables>
     <workflow />
     <matlab>
