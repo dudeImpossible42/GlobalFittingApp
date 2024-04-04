@@ -1,7 +1,7 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="70566870" file="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\GlobalFittingApp\GlobalFittingApp.prj" location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\GlobalFittingApp" name="GlobalFittingApp" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="388322683" file="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp\GlobalFittingApp.prj" location="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp" name="GlobalFittingApp" target="target.mlapps" target-name="Package App">
     <param.appname>GlobalFittingApp</param.appname>
-    <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
+    <param.authnamewatermark>Haris Vidimlic, Robert Godin</param.authnamewatermark>
     <param.email />
     <param.company>SolarSpec</param.company>
     <param.icon>${PROJECT_ROOT}\GlobalFittingApp_resources\icon_24.png</param.icon>
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>Use MATLAB's Curve Fitting Toolbox and Global Optimization Toolbox to perform nonlinear multivariate regression on your experimental data.</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\mirac\AppData\Local\Temp\tp46c8b3ed_6e62_4985_95f6_f27ac9275312.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.screenshot>C:\Users\rgodin01\AppData\Local\Temp\tp81338a58_a0de_45ce_b69e_a93bd29cfd83.png</param.screenshot>
+    <param.version>1.1</param.version>
     <param.products.name>
       <item>MATLAB</item>
       <item>Curve Fitting Toolbox</item>
@@ -41,7 +41,6 @@
     <unset>
       <param.email />
       <param.description />
-      <param.version />
       <param.platforms />
       <param.output />
     </unset>
@@ -54,12 +53,49 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders" name="GlobalFittingApp" optional="false">C:\Users\mirac\OneDrive\Desktop\SolarSPEC\GitFolders\GlobalFittingApp</file>
+      <file location="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo" name="GlobalFittingApp" optional="false">D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp</file>
     </build-deliverables>
     <workflow />
     <matlab>
       <root>C:\Program Files\MATLAB\R2022b</root>
-      <toolboxes />
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
     </matlab>
     <platform>
       <unix>false</unix>
