@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="388322683" file="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp\GlobalFittingApp.prj" location="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp" name="GlobalFittingApp" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="658414744" file="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp\GlobalFittingApp.prj" location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp" name="GlobalFittingApp" target="target.mlapps" target-name="Package App">
     <param.appname>GlobalFittingApp</param.appname>
     <param.authnamewatermark>Haris Vidimlic, Robert Godin</param.authnamewatermark>
     <param.email />
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>Use MATLAB's Curve Fitting Toolbox and Global Optimization Toolbox to perform nonlinear multivariate regression on your experimental data.</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\rgodin01\AppData\Local\Temp\tp81338a58_a0de_45ce_b69e_a93bd29cfd83.png</param.screenshot>
-    <param.version>1.1</param.version>
+    <param.screenshot>C:\Users\bob_e\AppData\Local\Temp\tp19b9dce0_31d0_4c37_834f_5c8fa44c3078.png</param.screenshot>
+    <param.version>1.2</param.version>
     <param.products.name>
       <item>MATLAB</item>
       <item>Curve Fitting Toolbox</item>
@@ -53,49 +53,12 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo" name="GlobalFittingApp" optional="false">D:\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp</file>
+      <file location="C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo" name="GlobalFittingApp" optional="false">C:\Users\bob_e\OneDrive - UBC\RG\UBCO\Research\Git\Platform-Repo\GlobalFittingApp</file>
     </build-deliverables>
     <workflow />
     <matlab>
       <root>C:\Program Files\MATLAB\R2022b</root>
-      <toolboxes>
-        <toolbox name="matlabcoder" />
-        <toolbox name="embeddedcoder" />
-        <toolbox name="gpucoder" />
-        <toolbox name="fixedpoint" />
-        <toolbox name="matlabhdlcoder" />
-        <toolbox name="neuralnetwork" />
-      </toolboxes>
-      <toolbox>
-        <matlabcoder>
-          <enabled>true</enabled>
-        </matlabcoder>
-      </toolbox>
-      <toolbox>
-        <embeddedcoder>
-          <enabled>true</enabled>
-        </embeddedcoder>
-      </toolbox>
-      <toolbox>
-        <gpucoder>
-          <enabled>true</enabled>
-        </gpucoder>
-      </toolbox>
-      <toolbox>
-        <fixedpoint>
-          <enabled>true</enabled>
-        </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <matlabhdlcoder>
-          <enabled>true</enabled>
-        </matlabhdlcoder>
-      </toolbox>
-      <toolbox>
-        <neuralnetwork>
-          <enabled>true</enabled>
-        </neuralnetwork>
-      </toolbox>
+      <toolboxes />
     </matlab>
     <platform>
       <unix>false</unix>
